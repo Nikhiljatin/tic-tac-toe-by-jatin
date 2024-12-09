@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: emoji;
+    font-weight: 800;
+}
+
+body {
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 32px;
+    color: white;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 8vmin;
+    box-shadow: 0 0 1rem rgb(180, 180, 180, 0.5);
+}
+
+#reset-btn {
+    height: 2.5rem;
+    width: 6rem;
+    cursor: pointer;
+    border-radius: 15rem;
+    margin-bottom: 25px;
+}
+
+#new-btn {
+    height: 2.5rem;
+    width: 6rem;
+    cursor: pointer;
+    border-radius: 15rem;
+}
+
+#msg {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    display: none;
+}
+button:disabled {
+    background-color: #cccccc; /* Light gray background */
+    color: #000000;           /* Gray text */
+    cursor: not-allowed;      /* Not-allowed cursor */
+    opacity: 0.7;             /* Slightly faded look */
+  }
+  @media (max-width: 650px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+    .container {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+  }
+  @media (min-width: 651px) and (max-width:1095px) {
+    body {
+        background-size: cover;
+        background-position: center;
+      }
+      .container {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+  }
+  
