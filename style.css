@@ -90,12 +90,17 @@ button:disabled {
     background-position: center;
   }
     .container {
-        height: 90vh;
+        height: 85vh;
         display: flex;
         justify-content: center;
         align-items: center;
     
     }
+      #reset-btn {
+    height: 2.5rem;
+    width: 6rem;
+    cursor: pointer;
+    margin-bottom:30px;
   }
   @media (min-width: 651px) and (max-width:1095px) {
     body {
