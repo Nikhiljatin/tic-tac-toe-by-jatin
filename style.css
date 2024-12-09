@@ -84,25 +84,20 @@ button:disabled {
     cursor: not-allowed;      /* Not-allowed cursor */
     opacity: 0.7;             /* Slightly faded look */
   }
-  @media (max-width: 650px) {
-  body {
-    background-size: cover;
-    background-position: center;
-  }
-    .container {
-        height: 85vh;
+  @media (min-width: 650px) and (max-width:1095px) {
+    body {
+        background-size: cover;
+        background-position: center;
+      }
+      .container {
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;
     
     }
-      #reset-btn {
-    height: 2.5rem;
-    width: 6rem;
-    cursor: pointer;
-    margin-bottom:30px;
   }
-  @media (min-width: 651px) and (max-width:1095px) {
+  @media (min-width: 1095px) and (max-width:3000px) {
     body {
         background-size: cover;
         background-position: center;
