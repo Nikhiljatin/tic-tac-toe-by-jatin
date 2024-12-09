@@ -110,4 +110,17 @@ button:disabled {
     
     }
   }
+@media (max-width: 650px) {
+    body {
+        background-size: cover;
+        background-position: center;
+      }
+      .container {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
   
